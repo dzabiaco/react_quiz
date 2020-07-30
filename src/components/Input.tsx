@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 
 type Props = {
-    numberQue: (event: React.ChangeEvent<HTMLInputElement>) => void;
+    // numberQue?: (event: React.ChangeEvent<HTMLInputElement>) => void;
+    numberQue?: any;
 }
 
 const Input: React.FC<Props> = (props) => {

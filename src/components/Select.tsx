@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 
 type Props = {
-    getOption: (event:  React.ChangeEvent<HTMLSelectElement>) => void;
+    // getOption?: (event:  React.ChangeEvent<HTMLSelectElement>) => void;
+    getOption?: any;
 }
 
 const Select: React.FC<Props> = (props) => {
