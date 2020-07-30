@@ -109,8 +109,6 @@ const App = () => {
           <button className="btn" onClick={nexQuestion}>Next Question</button>) : null
         }
       </Wrapper>
-
-      <Footer />
     </div>
   );
 }
