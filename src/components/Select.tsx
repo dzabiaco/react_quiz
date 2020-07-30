@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 type Props = {
-    getOption: (e: React.SyntheticEvent) => void;
+    getOption: (event:  React.ChangeEvent<HTMLSelectElement>) => void;
 }
 
 const Select: React.FC<Props> = (props) => {

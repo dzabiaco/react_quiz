@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 type Props = {
-    numberQue: (e: React.SyntheticEvent) => void;
+    numberQue: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 const Input: React.FC<Props> = (props) => {
