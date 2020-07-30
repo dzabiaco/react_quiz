@@ -14,7 +14,7 @@ const Select: React.FC<Props> = (props) => {
 
     return <div>
         <div className="input-field col s12">
-            <select onChange={(event)=> props.getOption(event)}>
+            <select onChange={(event)=> props.getOption(event)!}>
                 <option value="easy">Easy</option>
                 <option value="medium">Medium</option>
                 <option value="hard">Hard</option>
